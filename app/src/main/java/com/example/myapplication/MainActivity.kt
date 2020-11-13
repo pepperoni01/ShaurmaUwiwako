@@ -27,6 +27,12 @@ class MainActivity : AppCompatActivity() {
             if(result == "0"){
                 result = ""
             }
+            if(view.text.toString() == "."){
+                if(resultTextView.text.toString().indexOf(".") >= 0){
+                        number = ""
+                    }
+
+            }
             resultTextView.text = result + number
         }
     }
@@ -76,3 +82,4 @@ class MainActivity : AppCompatActivity() {
         num += 1
     }
 }
+

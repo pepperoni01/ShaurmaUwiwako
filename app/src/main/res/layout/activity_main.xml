@@ -34,7 +34,7 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:layout_weight="2.1"
+            android:layout_weight="1.78"
             android:textStyle="bold"
             android:onClick="clearClick"
             android:background="#2ab7ca"
@@ -47,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="100dp"
             android:layout_marginHorizontal="3dp"
-            android:layout_weight="1.55"
+            android:layout_weight="1.32"
             android:onClick="operationClick"
             android:textStyle="bold"
             android:background="#2ab7ca"
@@ -55,14 +55,17 @@
             android:text="/"
             android:textSize="30sp" />
 
-        <ImageView
-            android:id="@+id/imageView2"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:layout_weight="0.45"
+            android:text="@string/_3"
+            android:gravity="center"
             android:onClick="kacitadze"
+            android:textSize="30sp"
+            android:layout_weight="0.9"
             android:background="#2ab7ca"
-            app:srcCompat="@drawable/kacitadze" />
+            android:textStyle="bold"/>
+
     </LinearLayout>
 
     <TableLayout
